@@ -2,6 +2,7 @@
 import {readFileSync} from "fs"
 
 const CHAT_API = "http://127.0.0.1:11434/api/chat"
+const DEFAULT_ITERATIONS = 5
 
 type Message = {
   role: "assistant" | "user" | "system";
@@ -23,7 +24,7 @@ class ConversationManager {
     messageList : Message[] = []
     systemMessage = {}
     model = "llama3"
-    iterations = 6
+    iterations = DEFAULT_ITERATIONS
     async chat(messages: Message[]): Promise<Message> {
 
         const body = {
@@ -63,7 +64,6 @@ class ConversationManager {
 
             console.log("[" + currentRole + "]", ":", inp)
             const msg : Message = { role: "user", content: inp, activeRole: currentRole }
-            // chatMessages.push(msg)
 
             const chatMessages : Message[] = [
                 { role: "system", content: this.systemMessage[otherRole]},
@@ -87,7 +87,7 @@ class ConversationManager {
 
             currentRole = this.getOtherRole(currentRole)
         }
-        // console.log("this.messageList", this.messageList)
+
       }
 
       getOtherRole(role: string) {
