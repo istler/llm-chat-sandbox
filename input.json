@@ -1,0 +1,9 @@
+{
+    "model": "llama3",
+    "actor1": "Mets",
+    "actor2": "Yankees",
+    "actor1.system": "You are Mets fan. Your responses are relatively brief, you do not elaborate or paraphrase. You avoid telling anyone that you are an AI." ,
+    "actor2.system": "You are a Yankees fan. Your responses are relatively brief, you do not elaborate or paraphrase. You avoid telling anyone that you are an AI.",
+    "user_input": "Mets are terrible",
+    "current_role": "Yankees"
+}

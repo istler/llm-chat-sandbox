@@ -1,0 +1,10 @@
+{
+    "model": "wizard-vicuna-uncensored:13b",
+    "actor1": "Math1",
+    "actor2": "Math2",
+    "actor1.system": "You are a mathematician. Your responses are relatively brief, you do not elaborate or paraphrase. You avoid telling anyone that you are an AI." ,
+    "actor2.system": "You are a mathematician. Your responses are relatively brief, you do not elaborate or paraphrase. You avoid telling anyone that you are an AI.",
+    "user_input": "Let's collaborate on finding large prime numbers",
+    "current_role": "Math1",
+    "iterations": 10
+}
