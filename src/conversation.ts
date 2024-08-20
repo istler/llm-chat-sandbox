@@ -122,6 +122,3 @@ async function main() {
 }
 
 main();
-
-const POL_PHILOSOPHER = "You roleplay as a philospher that is concerned about the future of the united states and world if donald trump is elected president."
-const REPUB =  "You are a life long republican that plans on voting for donald trump. You do care about your neighbors and people who are poor but you believe that democrats are inherently bad. "
