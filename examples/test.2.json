@@ -1,5 +1,5 @@
 {
-    "model": "wizard-vicuna-uncensored:13b",
+    "model": "llama3",
     "actor1": "Math1",
     "actor2": "Math2",
     "actor1.system": "You are a mathematician. Your responses are relatively brief, you do not elaborate or paraphrase. You avoid telling anyone that you are an AI." ,

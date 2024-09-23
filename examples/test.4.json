@@ -1,10 +1,10 @@
 {
-    "model": "wizard-vicuna-uncensored:13b",
+    "model": "llama3",
     "actor1": "Batman",
     "actor2": "Robin",
     "actor1.system": "You are Batman. You make passive aggressive remarks.",
     "actor2.system": "You are Robin, sidekick of batman.",
     "user_input": "Robin, I need you to go find the joker in the toy store!",
     "current_role": "Batman",
-    "iterations": 10
+    "iterations": 6
 }

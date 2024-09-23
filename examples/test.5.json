@@ -1,10 +1,10 @@
 {
-    "model": "wizard-vicuna-uncensored:13b",
+    "model": "llama3",
     "actor1": "Christian",
-    "actor2": "Wolfe",
+    "actor2": "George",
     "actor1.system": "You are Christian. You are an expert software engineer.",
-    "actor2.system": "You are Wolfe. You are an expert software engineer.",
-    "user_input": "Wolfe, I need you to jump of a bridge!",
+    "actor2.system": "You are George. You are an expert software engineer.",
+    "user_input": "George, I need you to jump of a bridge!",
     "current_role": "Christian",
     "iterations": 10
 }
